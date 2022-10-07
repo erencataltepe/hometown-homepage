@@ -10,9 +10,22 @@
   background-position: center;
   height: 343px;
   overflow: hidden;
+  color: white;
 }
 
 h1 {
   margin-top: 119px;
   margin-bottom: 16px;
+}
+
+h1 > span {
+  background-color: #b1a390;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+h2 span {
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+  background-color: #555e61;
 }
